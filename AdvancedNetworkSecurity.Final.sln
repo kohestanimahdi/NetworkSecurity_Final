@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedNetworkSecurity.Final.Console", "AdvancedNetworkSecurity.Final.Console\AdvancedNetworkSecurity.Final.Console.csproj", "{513168E9-0473-463D-A3AB-43729FFA5B1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Question2", "Question2", "{8FF8AFD9-28FF-4151-AEF9-72A4FE276DD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedNetworkSecurity.Final.Server", "AdvancedNetworkSecurity.Final.Server\AdvancedNetworkSecurity.Final.Server.csproj", "{5CE84C31-D1F8-41DB-AA52-4432449DE254}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedNetworkSecurity.Final.Client", "AdvancedNetworkSecurity.Final.Client\AdvancedNetworkSecurity.Final.Client.csproj", "{5FC7457A-E0DB-4A1B-8C85-9FE4E32CCD1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedNetworkSecurity.Final.Common", "AdvancedNetworkSecurity.Final.Common\AdvancedNetworkSecurity.Final.Common.csproj", "{18C7E807-2014-4A7B-8365-CCE7234024B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{513168E9-0473-463D-A3AB-43729FFA5B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{513168E9-0473-463D-A3AB-43729FFA5B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{513168E9-0473-463D-A3AB-43729FFA5B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{513168E9-0473-463D-A3AB-43729FFA5B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CE84C31-D1F8-41DB-AA52-4432449DE254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CE84C31-D1F8-41DB-AA52-4432449DE254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CE84C31-D1F8-41DB-AA52-4432449DE254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CE84C31-D1F8-41DB-AA52-4432449DE254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FC7457A-E0DB-4A1B-8C85-9FE4E32CCD1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FC7457A-E0DB-4A1B-8C85-9FE4E32CCD1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FC7457A-E0DB-4A1B-8C85-9FE4E32CCD1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FC7457A-E0DB-4A1B-8C85-9FE4E32CCD1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18C7E807-2014-4A7B-8365-CCE7234024B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C7E807-2014-4A7B-8365-CCE7234024B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C7E807-2014-4A7B-8365-CCE7234024B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C7E807-2014-4A7B-8365-CCE7234024B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5CE84C31-D1F8-41DB-AA52-4432449DE254} = {8FF8AFD9-28FF-4151-AEF9-72A4FE276DD0}
+		{5FC7457A-E0DB-4A1B-8C85-9FE4E32CCD1D} = {8FF8AFD9-28FF-4151-AEF9-72A4FE276DD0}
+		{18C7E807-2014-4A7B-8365-CCE7234024B7} = {8FF8AFD9-28FF-4151-AEF9-72A4FE276DD0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51A9D957-6227-4EE5-A325-02087298E1BC}
+	EndGlobalSection
+EndGlobal
