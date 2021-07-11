@@ -26,39 +26,15 @@ namespace AdvancedNetworkSecurity.Final.Console
         {
 
             var tasks = new List<Task>();
-            //var dictionaries = new List<string>{
-            //    "7-sorted.uniq",
-            //    "8-sorted.uniq",
-            //    "9-sorted.uniq",
-            //    "10-sorted.uniq",
-            //    "11-sorted.uniq",
-            //    "12-sorted.uniq",
-            //    "13-sorted.uniq",
-            //    "14-sorted.uniq",
-            //    "15+-sorted.uniq",
-            //};
-
-            var dictionaries = new List<string>{
-                "realhuman_phill.txt",
-                "10-million-combos.txt",
-                "wl_jano_names_jargon.txt"
-            };
-
-            //tasks.Add(Task.Run(() => Dive("", 0)));
-            //tasks.Add(Task.Run(() => PersianDive("", 0)));
 
 
-            //foreach (var dic in dictionaries)
-            //    tasks.Add(Task.Run(() => CheckInDictionary(dic)));
-
-            //Task.WhenAll(tasks).GetAwaiter().GetResult();
+            tasks.Add(Task.Run(() => Dive("", 0)));
+            tasks.Add(Task.Run(() => PersianDive("", 0)));
 
 
-            //dictionaries.Reverse();
-            //foreach (var item in dictionaries)
-            //    CheckInDictonaryAsync(item).GetAwaiter().GetResult();
 
-            PersianDive2("", 0).GetAwaiter().GetResult();
+            Task.WhenAll(tasks).GetAwaiter().GetResult();
+
             System.Console.WriteLine("Finish");
 
         }
